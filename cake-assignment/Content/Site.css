@@ -63,11 +63,12 @@ h3 {
 }
 
 /*footer*/
-footer{
-      font-size: 20px;
-      font-family: "Leckerli One";
-      color: #4B0082;
-      padding-bottom: 70px;
+footer {
+    padding-left: 50px;
+    font-size: 18px;
+    font-family: "Leckerli One";
+    color: #4B0082;
+    padding-bottom: 70px;
 }
 .img{
     position: relative;
@@ -75,29 +76,46 @@ footer{
   
 }
 
-/*contact page */
-  .topcorner{
-                 font-family: cursive;
-                 color: darkred;
-                 font-size: 20px;
-                 width: 500px;
-                 font-weight: bolder;     
-                 margin-top: 250px;
-                 position:absolute;
-                 top:0;
-                 right:0;        
-          }
   /*About */
-   p#what, p#who{
+   p#what{
+       padding-left: 420px;
      font-weight:400;
      color:  #F20056;
-     font-size: 25px;
+     font-size: 22px;
      font-family:  "Marck Script";
      font-weight: 700;
  }
+
+    p#who{
+     font-weight:400;
+     color:  dodgerblue;
+     font-size: 22px;
+     font-family:  "Marck Script";
+     font-weight: 700;
+     padding-left: 420px;
+ }
+    h5{
+     font-family:  Forte;
+ color: black;
+ font-size: 25px;
+    }
 
    h4{
     font-family:  Forte;
  color:  darkred;
  font-size: 25px;
  }
+
+   /* Contact page*/
+ 
+   div#map {
+       text-align: center;
+     padding-top : 330px;
+ display: inline-block;
+font-family:  "Marck Script";
+ color:   #F20056;
+  font-weight: 900;
+ font-size: 20px;
+ right: -190px;
+ }
+ 
