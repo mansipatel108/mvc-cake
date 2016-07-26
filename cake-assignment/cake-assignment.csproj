@@ -186,6 +186,8 @@
     <Content Include="Assets\Images\cake2.jpg" />
     <Content Include="Assets\Images\cake3.jpg" />
     <Content Include="Assets\Images\cake4.jpeg" />
+    <Content Include="Assets\Images\cake6.jpg" />
+    <Content Include="Assets\Images\cake8.jpg" />
     <Content Include="Assets\Images\con0.jpg" />
     <Content Include="Assets\Images\logo2.png" />
     <Content Include="Content\bootstrap-theme.css" />
