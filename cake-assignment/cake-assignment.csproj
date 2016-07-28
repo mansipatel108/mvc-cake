@@ -60,6 +60,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -169,14 +171,29 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CakesController.cs" />
+    <Compile Include="Controllers\ChocolateCakesController.cs" />
+    <Compile Include="Controllers\CoffeeCakesController.cs" />
+    <Compile Include="Controllers\FruitCakesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SpongeCakesController.cs" />
+    <Compile Include="Controllers\ThemeCakesController.cs" />
+    <Compile Include="Controllers\WeddingCakesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Cake.cs" />
+    <Compile Include="Models\CakeModel.cs" />
+    <Compile Include="Models\ChocolateCake.cs" />
+    <Compile Include="Models\CoffeeCake.cs" />
+    <Compile Include="Models\FruitCake.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\SpongeCake.cs" />
+    <Compile Include="Models\ThemeCake.cs" />
+    <Compile Include="Models\WeddingCake.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -265,6 +282,41 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Cakes\Create.cshtml" />
+    <Content Include="Views\Cakes\Delete.cshtml" />
+    <Content Include="Views\Cakes\Details.cshtml" />
+    <Content Include="Views\Cakes\Edit.cshtml" />
+    <Content Include="Views\Cakes\Index.cshtml" />
+    <Content Include="Views\ChocolateCakes\Create.cshtml" />
+    <Content Include="Views\ChocolateCakes\Delete.cshtml" />
+    <Content Include="Views\ChocolateCakes\Details.cshtml" />
+    <Content Include="Views\ChocolateCakes\Edit.cshtml" />
+    <Content Include="Views\ChocolateCakes\Index.cshtml" />
+    <Content Include="Views\CoffeeCakes\Create.cshtml" />
+    <Content Include="Views\CoffeeCakes\Delete.cshtml" />
+    <Content Include="Views\CoffeeCakes\Details.cshtml" />
+    <Content Include="Views\CoffeeCakes\Edit.cshtml" />
+    <Content Include="Views\CoffeeCakes\Index.cshtml" />
+    <Content Include="Views\FruitCakes\Create.cshtml" />
+    <Content Include="Views\FruitCakes\Delete.cshtml" />
+    <Content Include="Views\FruitCakes\Details.cshtml" />
+    <Content Include="Views\FruitCakes\Edit.cshtml" />
+    <Content Include="Views\FruitCakes\Index.cshtml" />
+    <Content Include="Views\SpongeCakes\Create.cshtml" />
+    <Content Include="Views\SpongeCakes\Delete.cshtml" />
+    <Content Include="Views\SpongeCakes\Details.cshtml" />
+    <Content Include="Views\SpongeCakes\Edit.cshtml" />
+    <Content Include="Views\SpongeCakes\Index.cshtml" />
+    <Content Include="Views\ThemeCakes\Create.cshtml" />
+    <Content Include="Views\ThemeCakes\Delete.cshtml" />
+    <Content Include="Views\ThemeCakes\Details.cshtml" />
+    <Content Include="Views\ThemeCakes\Edit.cshtml" />
+    <Content Include="Views\ThemeCakes\Index.cshtml" />
+    <Content Include="Views\WeddingCakes\Create.cshtml" />
+    <Content Include="Views\WeddingCakes\Delete.cshtml" />
+    <Content Include="Views\WeddingCakes\Details.cshtml" />
+    <Content Include="Views\WeddingCakes\Edit.cshtml" />
+    <Content Include="Views\WeddingCakes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
